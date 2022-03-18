@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bubble-drop/static/css/main.76f63fe1.css",
+    "main.css": "/bubble-drop/static/css/main.cdc60956.css",
     "main.js": "/bubble-drop/static/js/main.e1e3cf42.js",
     "static/js/787.1a9a3a79.chunk.js": "/bubble-drop/static/js/787.1a9a3a79.chunk.js",
     "static/media/bubble3.png": "/bubble-drop/static/media/bubble3.07b62d7f895a60eef822.png",
@@ -9,12 +9,12 @@
     "static/media/bubble4.png": "/bubble-drop/static/media/bubble4.e5e4671742be2bf0de0c.png",
     "static/media/bubble5.png": "/bubble-drop/static/media/bubble5.0ee687e6118dbf27cc6d.png",
     "index.html": "/bubble-drop/index.html",
-    "main.76f63fe1.css.map": "/bubble-drop/static/css/main.76f63fe1.css.map",
+    "main.cdc60956.css.map": "/bubble-drop/static/css/main.cdc60956.css.map",
     "main.e1e3cf42.js.map": "/bubble-drop/static/js/main.e1e3cf42.js.map",
     "787.1a9a3a79.chunk.js.map": "/bubble-drop/static/js/787.1a9a3a79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76f63fe1.css",
+    "static/css/main.cdc60956.css",
     "static/js/main.e1e3cf42.js"
   ]
 }
