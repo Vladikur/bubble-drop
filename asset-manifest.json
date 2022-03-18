@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/bubble-drop/static/css/main.cdc60956.css",
-    "main.js": "/bubble-drop/static/js/main.e1e3cf42.js",
+    "main.css": "/bubble-drop/static/css/main.7586e8e7.css",
+    "main.js": "/bubble-drop/static/js/main.107f898e.js",
     "static/js/787.1a9a3a79.chunk.js": "/bubble-drop/static/js/787.1a9a3a79.chunk.js",
+    "static/media/rectangle.png": "/bubble-drop/static/media/rectangle.fa007d09e39f006ce4c3.png",
+    "static/media/paralax.png": "/bubble-drop/static/media/paralax.33d3fb5c1542af2982c4.png",
+    "static/media/OpenSans.ttf": "/bubble-drop/static/media/OpenSans.da1919d9724581171c80.ttf",
     "static/media/bubble3.png": "/bubble-drop/static/media/bubble3.07b62d7f895a60eef822.png",
     "static/media/bubble1.png": "/bubble-drop/static/media/bubble1.ea37842e2aa2a069c085.png",
     "static/media/bubble2.png": "/bubble-drop/static/media/bubble2.f7e36ca8f105beae04e3.png",
     "static/media/bubble4.png": "/bubble-drop/static/media/bubble4.e5e4671742be2bf0de0c.png",
+    "static/media/TippyToes-Bold.ttf": "/bubble-drop/static/media/TippyToes-Bold.bdd8182c1d327bd6db5a.ttf",
+    "static/media/TippyToes-X-tra-Bold.ttf": "/bubble-drop/static/media/TippyToes-X-tra-Bold.9f1a37882332929767c2.ttf",
     "static/media/bubble5.png": "/bubble-drop/static/media/bubble5.0ee687e6118dbf27cc6d.png",
+    "static/media/binance.svg": "/bubble-drop/static/media/binance.d611b059b323e9328cefcd93f6adecce.svg",
     "index.html": "/bubble-drop/index.html",
-    "main.cdc60956.css.map": "/bubble-drop/static/css/main.cdc60956.css.map",
-    "main.e1e3cf42.js.map": "/bubble-drop/static/js/main.e1e3cf42.js.map",
+    "main.7586e8e7.css.map": "/bubble-drop/static/css/main.7586e8e7.css.map",
+    "main.107f898e.js.map": "/bubble-drop/static/js/main.107f898e.js.map",
     "787.1a9a3a79.chunk.js.map": "/bubble-drop/static/js/787.1a9a3a79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdc60956.css",
-    "static/js/main.e1e3cf42.js"
+    "static/css/main.7586e8e7.css",
+    "static/js/main.107f898e.js"
   ]
 }
