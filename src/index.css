@@ -1,5 +1,14 @@
 @import url(./vendor/normalize.css);
 
+@import url(./vendor/fonts/tippyToes/tippyToes.css);
+@import url(./vendor/fonts/openSans/openSans.css);
+
 @import url(./components/App/App.css);
 
+@import url(./components/Numbers/Numbers.css);
+
+@import url(./components/Header/Header.css);
+
 @import url(./components/MaskGroup/MaskGroup.css);
+
+@import url(./components/Paralax/Paralax.css);
