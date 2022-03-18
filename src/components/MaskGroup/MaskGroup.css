@@ -1,0 +1,147 @@
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.mask-group {
+  height: 319px;
+  position: relative;
+  overflow: hidden;
+  background: black;
+}
+
+.mask-group::before {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  content: '';
+  opacity: 1;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 8.41%, rgba(196, 196, 196, 0) 22.39%, rgba(196, 196, 196, 0) 76.06%, rgb(0, 0, 0) 94.2%);
+}
+
+.mask-group__bubble0 {
+  position: absolute;
+  width: 205px;
+  top: 18px;
+  left: -90px;
+  z-index: 1;
+  animation: rotate 4s ease infinite;
+}
+
+.mask-group__bubble1 {
+  position: absolute;
+  top: 40px;
+  left: 167px;
+  width: 204px;
+  z-index: 1;
+  animation: rotate 5s ease infinite;
+}
+
+.mask-group__bubble2 {
+  position: absolute;
+  width: 282px;
+  top: 0px;
+  left: 355px;
+  z-index: 1;
+  animation: rotate 7s ease infinite;
+}
+
+.mask-group__bubble3 {
+  position: absolute;
+  width: 294px;
+  top: 10px;
+  left: 618px;
+  z-index: 1;
+  animation: rotate 9s ease infinite;
+}
+
+.mask-group__bubble4 {
+  position: absolute;
+  width: 205px;
+  top: 18px;
+  left: 952px;
+  z-index: 1;
+  animation: rotate 4s ease infinite;
+}
+
+.mask-group__bubble5 {
+  position: absolute;
+  width: 116px;
+  height: 118px;
+  top: 100px;
+  left: 121px;
+  z-index: 2;
+  animation: pulse 3s linear infinite;
+}
+
+.mask-group__bubble6 {
+  position: absolute;
+  width: 68px;
+  height: 69px;
+  top: 61px;
+  left: 339px;
+  z-index: 2;
+  animation: pulse 2s linear infinite;
+}
+
+.mask-group__bubble7 {
+  position: absolute;
+  width: 95px;
+  height: 96px;
+  top: 63px;
+  left: 516px;
+  z-index: 2;
+  animation: pulse 3s linear infinite;
+}
+
+.mask-group__bubble8 {
+  position: absolute;
+  width: 68px;
+  height: 69px;
+  top: 159px;
+  left: 662px;
+  z-index: 2;
+  animation: pulse 2s linear infinite;
+}
+
+.mask-group__bubble9 {
+  position: absolute;
+  width: 68px;
+  height: 69px;
+  top: 76px;
+  left: 927px;
+  z-index: 2;
+  animation: pulse 2.5s linear infinite;
+}
+
+.mask-group__bubble10 {
+  position: absolute;
+  width: 102px;
+  height: 103px;
+  top: 94px;
+  left: 1102px;
+  z-index: 2;
+  animation: pulse 3.5s linear infinite;
+}
