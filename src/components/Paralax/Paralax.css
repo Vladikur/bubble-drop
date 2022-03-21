@@ -4,8 +4,20 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1300px) {
+.paralax__image {
+  width: 1449px;
+  object-fit: cover;
+  object-position:center;
+}
+
+@media screen and (max-width: 700px) {
   .paralax {
-    display: none;
+    height: 300px;
+  }
+  
+  .paralax__image {
+    width: 1100px;
+    object-fit: cover;
+    object-position:center;
   }
 }
