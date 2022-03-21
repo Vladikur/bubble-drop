@@ -3,6 +3,7 @@ import MaskGroup from '../MaskGroup/MaskGroup';
 import Paralax from '../Paralax/Paralax';
 import Header from '../Header/Header';
 import About from '../About/About';
+import People from '../People/People';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MaskGroup/>
       <About/>
       <Paralax/>
+      <People/>
     </div>
   );
 }

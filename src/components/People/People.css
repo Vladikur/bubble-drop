@@ -1,0 +1,27 @@
+.people__image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.people__image1 {
+  width: 300px;
+  height: 150px;
+}
+
+.people__image2 {
+  width: 300px;
+  height: 150px;
+}
+
+.people__image3 {
+  width: 300px;
+  height: 150px;
+}
+
+.people__bubl-container {
+  display: flex;
+}
+
+.people__avatar {
+  width: 300px;
+}
