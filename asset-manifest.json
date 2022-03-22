@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/bubble-drop/static/css/main.57528aa0.css",
-    "main.js": "/bubble-drop/static/js/main.3b7d11dc.js",
+    "main.css": "/bubble-drop/static/css/main.4e1597fa.css",
+    "main.js": "/bubble-drop/static/js/main.abe7ec07.js",
     "static/js/787.1a9a3a79.chunk.js": "/bubble-drop/static/js/787.1a9a3a79.chunk.js",
     "static/media/rectangle.png": "/bubble-drop/static/media/rectangle.fa007d09e39f006ce4c3.png",
     "static/media/paralax.png": "/bubble-drop/static/media/paralax.33d3fb5c1542af2982c4.png",
     "static/media/OpenSans.ttf": "/bubble-drop/static/media/OpenSans.da1919d9724581171c80.ttf",
     "static/media/elena2.png": "/bubble-drop/static/media/elena2.99dca2833f89f5916ae0.png",
     "static/media/nadya2.png": "/bubble-drop/static/media/nadya2.cfa7810fec2d3f66bf6f.png",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/bubble-drop/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
     "static/media/elena1.png": "/bubble-drop/static/media/elena1.4679ba0d357557aa14e0.png",
+    "static/media/maks2.png": "/bubble-drop/static/media/maks2.2d1fbec6917a330bb89d.png",
     "static/media/elena.png": "/bubble-drop/static/media/elena.8da8ad7a5f85fb9e737c.png",
     "static/media/nadya.png": "/bubble-drop/static/media/nadya.f197d884746611d4e613.png",
     "static/media/maks.png": "/bubble-drop/static/media/maks.517ccb851b60ec136d57.png",
@@ -17,7 +19,6 @@
     "static/media/sveta.png": "/bubble-drop/static/media/sveta.500fc048342713c12857.png",
     "static/media/nadya1.png": "/bubble-drop/static/media/nadya1.12e713de93187ba14de6.png",
     "static/media/maks1.png": "/bubble-drop/static/media/maks1.faf9a12a1341cb6fdde4.png",
-    "static/media/maks2.png": "/bubble-drop/static/media/maks2.faf9a12a1341cb6fdde4.png",
     "static/media/bubble3.png": "/bubble-drop/static/media/bubble3.07b62d7f895a60eef822.png",
     "static/media/world.png": "/bubble-drop/static/media/world.a11da185afad29356121.png",
     "static/media/bubble1.png": "/bubble-drop/static/media/bubble1.ea37842e2aa2a069c085.png",
@@ -30,12 +31,14 @@
     "static/media/logo-about.svg": "/bubble-drop/static/media/logo-about.20bbb18de8e1ff71c274a661a967a5c8.svg",
     "index.html": "/bubble-drop/index.html",
     "static/media/dot.svg": "/bubble-drop/static/media/dot.8369c9b8ed1bd9c299e798af85ef75a1.svg",
-    "main.57528aa0.css.map": "/bubble-drop/static/css/main.57528aa0.css.map",
-    "main.3b7d11dc.js.map": "/bubble-drop/static/js/main.3b7d11dc.js.map",
+    "static/media/button2.svg": "/bubble-drop/static/media/button2.a2e01aafb421b9ce31e0.svg",
+    "static/media/activeButton2.svg": "/bubble-drop/static/media/activeButton2.88de103aa7e94c939aec.svg",
+    "main.4e1597fa.css.map": "/bubble-drop/static/css/main.4e1597fa.css.map",
+    "main.abe7ec07.js.map": "/bubble-drop/static/js/main.abe7ec07.js.map",
     "787.1a9a3a79.chunk.js.map": "/bubble-drop/static/js/787.1a9a3a79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57528aa0.css",
-    "static/js/main.3b7d11dc.js"
+    "static/css/main.4e1597fa.css",
+    "static/js/main.abe7ec07.js"
   ]
 }
