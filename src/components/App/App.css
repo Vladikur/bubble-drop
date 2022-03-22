@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .app {
   margin: 0 auto 0 auto;
   max-width: 1295px;

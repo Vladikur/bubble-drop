@@ -144,55 +144,28 @@
   }
 
   .about__header {
-    position: absolute;
     top: 74px;
     left: 10px;
-    z-index: 3;
-    margin: 0;
-    font-family: 'Open Sans 700';
-    font-style: normal;
     font-size: 26px;
     line-height: 38px;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #04F1FF;
   }
   
   .about__text {
-    position: absolute;
     top: 125px;
     left: 10px;
-    z-index: 3;
-    margin: 0;
     width: 300px;
-    font-family: 'Open Sans 400';
-    font-style: normal;
     font-size: 16px;
     line-height: 22px;
-    color: #5D5D5D;
   }
   
   .about__logo {
-    position: absolute;
     top: 290px;
     left: 10px;
-    z-index: 3;
   }
   
   .about__link {
-    position: absolute;
     top: 332px;
     left: 10px;
-    z-index: 3;
-    border-bottom: #FFFFFF 2px solid;
-    text-decoration: none;
-    font-family: 'Open Sans 400';
-    font-style: normal;
-    font-size: 18px;
-    line-height: 26px;
-    color: #FFFFFF;
-    transition: opacity 0.1s linear 0.1s;
-    opacity: 1;
   }
 
 }

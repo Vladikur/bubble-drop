@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { data } from '../../constants/Data';
+import Numbers from '../Numbers/Numbers';
 
 function People() {
 
@@ -75,8 +76,8 @@ function People() {
   return (
     <div className="people">
       <div className="people__button-container">
-        <button onClick={rareChange} className="people__button1" type='button'>Редкие</button>
-        <button onClick={veryRareChange} className="people__button1" type='button'>Очень редкие</button>
+        <button onClick={rareChange} className={`people__button1 ${ !veryRare ? 'people__button1_type_active' : ''}`} type='button'>Редкие</button>
+        <button onClick={veryRareChange} className={`people__button1 ${ veryRare ? 'people__button1_type_active' : ''}`} type='button'>Очень редкие</button>
       </div>
       { !veryRare ?
       <div className="people__image-container">
@@ -91,21 +92,32 @@ function People() {
         <img className="people__image3" src={people3.image2} alt="Изображение"/>
       </div>
       }
+      <div className="people__numbers-container">
+        <Numbers
+          people={true}
+        />
+      </div>
       <div className="people__name-container">
-        <p className="people__name1">{people1.name}</p>
-        <p className="people__name2">{people2.name}</p>
-        <p className="people__name3">{people3.name}</p>
+        <p className="people__name people__name_type_left">{people1.name}</p>
+        <p className="people__active-name">{people2.name}</p>
+        <p className="people__name people__name_type_right">{people3.name}</p>
       </div>
       <div className="people__bubl-container">
-        <button onClick={leftHandle} className="people__button2" type='button'></button>
+        <button onClick={leftHandle} className="people__button2 people__button2_type_left" type='button'></button>
         <p className="people__bubl-text">{people2.bubl}</p>
-        <button onClick={rightHandle} className="people__button3" type='button'></button>
+        <button onClick={rightHandle} className="people__button2 people__button2_type_right" type='button'></button>
       </div>
       <div className="people__info-container">
         <div className="people__text-container">
+          <span className="people__quotes people__quotes_type_top">бб</span>
           <p className="people__text">{people2.info}</p>
+          <span className="people__quotes people__quotes_type_bottom">бб</span>
         </div>
-        <img className="people__avatar" src={people2.avatar} alt="Изображение"/>
+        <div className="people__avatar-container">
+          <span className="people__avatar-tag">{people2.tag}</span>
+          <span className="people__avatar-tokens">60 tokens</span>
+          <img className="people__avatar" src={people2.avatar} alt="Изображение"/>
+        </div>
       </div>
     </div>
   );
