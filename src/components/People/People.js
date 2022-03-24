@@ -8,7 +8,7 @@ function People() {
     bubl: '',
     name: '',
     avatar: '',
-    image1: '../images/elena1.png',
+    image1: '',
     image2: '',
     info: '',
   }

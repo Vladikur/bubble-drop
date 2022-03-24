@@ -1,7 +1,6 @@
 import React from 'react';
 import Numbers from '../Numbers/Numbers';
 import binance from '../../images/binance.svg';
-
 import rectangle from '../../images/rectangle.png';
 
 function Header() {
