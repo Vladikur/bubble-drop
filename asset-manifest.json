@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bubble-drop/static/css/main.4e1597fa.css",
-    "main.js": "/bubble-drop/static/js/main.abe7ec07.js",
+    "main.js": "/bubble-drop/static/js/main.573e8f5a.js",
     "static/js/787.1a9a3a79.chunk.js": "/bubble-drop/static/js/787.1a9a3a79.chunk.js",
     "static/media/rectangle.png": "/bubble-drop/static/media/rectangle.fa007d09e39f006ce4c3.png",
     "static/media/paralax.png": "/bubble-drop/static/media/paralax.33d3fb5c1542af2982c4.png",
@@ -34,11 +34,11 @@
     "static/media/button2.svg": "/bubble-drop/static/media/button2.a2e01aafb421b9ce31e0.svg",
     "static/media/activeButton2.svg": "/bubble-drop/static/media/activeButton2.88de103aa7e94c939aec.svg",
     "main.4e1597fa.css.map": "/bubble-drop/static/css/main.4e1597fa.css.map",
-    "main.abe7ec07.js.map": "/bubble-drop/static/js/main.abe7ec07.js.map",
+    "main.573e8f5a.js.map": "/bubble-drop/static/js/main.573e8f5a.js.map",
     "787.1a9a3a79.chunk.js.map": "/bubble-drop/static/js/787.1a9a3a79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e1597fa.css",
-    "static/js/main.abe7ec07.js"
+    "static/js/main.573e8f5a.js"
   ]
 }
